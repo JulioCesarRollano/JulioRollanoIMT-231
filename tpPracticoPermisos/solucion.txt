@@ -1,0 +1,6 @@
+mi archivo lo descomprimi con tar -xzvf examen_permisos.tar.gz pero no me dio 
+entonces use sudo tar -xzvf examen_permisos.tar.gz y ya dio.
+Luego puse chmod 777 tpPracticoPermisos para darla todos los permisos de la carpeta.
+Luego use ls -la para verificar si la carpeta estaba con los permisos, despues de verificar luego le di los permisos a cada uno de los archivos de la carpeta con chmod 755 y listo :)
+
+enlace repositorio:https://github.com/JulioCesarRollano/JulioRollanoIMT-231.git 
