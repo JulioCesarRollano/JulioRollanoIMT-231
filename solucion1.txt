@@ -1,0 +1,5 @@
+que numero de permisos aplicarias y que comando ejecutarias 
+Use chmod 640 por que es el valor del octal
+ rw- (6) → Grupo tiene lectura (r) y escritura (w), pero no ejecución (-).
+r-- (4) → Otros solo tienen lectura (r), sin escritura ni ejecución (--).
+0 no da ningun permiso.
