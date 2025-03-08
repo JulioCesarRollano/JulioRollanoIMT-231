@@ -1,0 +1,3 @@
+Escribir sobre el archivo `documento1.txt` informacion del dueño.
+- Nombre completo:Julio Cesar Rollano Vargas 
+- version de sistema operativo:Ubuntu 24.04.1 LTS
