@@ -4,3 +4,40 @@ Luego puse chmod 777 tpPracticoPermisos para darla todos los permisos de la carp
 Luego use ls -la para verificar si la carpeta estaba con los permisos, despues de verificar luego le di los permisos a cada uno de los archivos de la carpeta con chmod 755 y listo :)
 
 enlace repositorio:https://github.com/JulioCesarRollano/JulioRollanoIMT-231.git 
+
+
+Ejercicio 2: Hacer un Script Ejecutable
+
+1. He creado un archivo llamado script.sh que realiza lo siguiente:
+   - Pide al usuario que ingrese su nombre.
+   - Muestra un saludo formal utilizando el nombre ingresado.
+   - Imprime el contenido del propio script en la terminal.
+2. Los requisitos  son:
+   - El propietario puede leer, escribir y ejecutar el archivo.
+   - El grupo y otros usuarios solo pueden ejecutarlo.
+3. Para aplicar los permisos, utilicé el comando `chmod 711 script.sh`, lo que asigna:
+   - Permisos (7) para el propietario (lectura, escritura, ejecución).
+   - Permisos (1) para el grupo (solo ejecución).
+   - Permisos (1) para otros (solo ejecución).
+4. Verifiqué los permisos con el comando `ls -l script.sh`
+5. Finalmente, ejecuté el script con `./script.sh` para comprobar si funciona y dio lo que pedia la practica
+
+
+
+ Ejercicio 3: Protección de un Archivo de Configuración
+
+1. Los requisitos indican que solo el propietario debe poder leer y escribir el archivo, 
+   y nadie más debe tener acceso.
+2. Para cumplir con estos requisitos, he asignado los siguientes permisos:
+   - El propietario tiene permisos de lectura y escritura lo que corresponde a un valor de 6.
+   - El grupo y otros usuarios no tiene permisos lo que corresponde a un valor de 0 para ambos.
+3. El comando utilizado para aplicar estos permisos es:
+   `chmod 600 config.cfg`.
+4. Verifiqué los permisos con el comando `ls -l config.cfg` y los permisos se aplicaron correctamente.
+## Ejercicio 4: Archivo Secreto
+1.- Los requisitos indican que solo el propetario pueda leer y nadie mas deba tener accesso
+2.- para cumplir estos requistos he asignado los siguientes permisos
+  - Solo el propietario puede leerlo.
+  - Nadie más debe tener acceso.
+3. El comando utilizado para aplicar estos permisos es:
+¨chmod 400 secreto.key¨
