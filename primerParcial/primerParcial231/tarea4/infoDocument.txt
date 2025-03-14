@@ -1,0 +1,5 @@
+jue 13 mar 2025 12:21:01 -04
+julio-cesar-rollano-vargas
+6.11.0-19-generic
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+Este documento corresponde a la Tarea 4 del examen.

@@ -1,0 +1,52 @@
+Archivo de Respuestas: respuestas.txt
+
+Datos del Estudiante
+- Nombre Completo:Julio Cesar Rollano Vargas  
+- URL de GitHub de la carpeta del examen:
+
+---
+
+## Tarea 1: Navegación y Creación de Carpetas
+
+- Permiso octal usado para restaurar permiso minimo de la carpeta primerParcial:chmod777
+
+- Comandos usados y justificaciones :
+Primero descomprimi con el tar -xzvf primerParcial231.tar.gz 
+luego cree con el touch el archivo tarea 1 con el cd ingrese a tarea 1, luego volvi a crear con touch subcarpeta llamada extrafolder y con cd entre a extrafolder ahi dentro volvi crear un archivo pero en este caso use el touch notesextra.txt
+Use chmod para los permisos, mkdir para crear carpetas y subcarpetas , navegue con el cd y cree con touch un archivo nuevo 
+Y cree un archivo fechatarea1.txt con echo date > fechatarea1
+---
+
+## Tarea 2: Permisos en Formato Octal
+- Permiso octal usado para esta tarea :chmod 600
+
+- Comandos usados y justificaciones : cree con date con un touch fechatarea2 y use comando echo $date > fechaTarea2
+use chmod 600 para que solo el propietario lea y escriba y otros grupos y usuarios no tengan acesso
+con nano abri mainconfig.cfg y escribi contenido ficticio 
+
+---
+## Tarea 3: Scripting Básico 
+- Permiso octal usado para el `basicScript.sh`: 640
+
+- Comandos usados y justificaciones : con read para leer 
+
+
+---
+## Tarea 4: Edición con nano o vim 
+
+- para que usamos el comando `cat` ?:
+para la ejecucion
+- Comandos usados y justificaciones :
+use chmod 700 para permisos y copie el date , whoami uname -r en el archivo infoDocument.txt
+
+---
+## Tarea 5: Final
+
+- para que usamos el comando `tree -p` y para que su argumento `-p` ?:
+
+El comando tree es una herramienta que se utiliza para mostrar la estructura de directorios y subdirectorios de forma jerárquica 
+-p muestra los permisos de los archivos dentro del directorio
+- Permiso octal para `entregaFinal.txt`: chmod 555
+
+- Comandos usados y justificaciones :
+mkdir tarea 5 luego cd tarea5 , luego touch entregafinal5.txt y luego el chmod 555
